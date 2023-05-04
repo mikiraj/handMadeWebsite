@@ -30,3 +30,27 @@ li{
 .header{
     margin-right: auto;
 }
+
+.hero{
+    color:#f9faf8;
+    font-size: 48px;
+}
+.secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.button1{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 25px;
+}
+.info{
+    color:#1f2937;
+    font-size: 36px;
+
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
