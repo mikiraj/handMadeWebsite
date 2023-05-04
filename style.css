@@ -47,10 +47,110 @@ li{
 .info{
     color:#1f2937;
     font-size: 36px;
+    display: flex;
+    justify-content: center;
 
 }
 .quote{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    
+    
+}
+
+.quote-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(200 200 200);
+}
+
+span{
+    font-size: 24px;}
+
+/* 
+.quotish{
+        font-size: 36px;
+        font-style: italic;
+        color: #1f2937;
+    
+}
+*/
+img{
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.f1, .f2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.f2{
+    align-items: flex-end;
+}
+
+.placeholder{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    border-radius: 25px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.right-part{
+    max-width: 400px;
+}
+img{
+    border-radius: 10px;
+}
+
+.f3{
+    background-color: #3882f6;
+    margin: 50px;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-bottom: 35px;    
+}
+
+.jk1, .jk2, .jk3{
+    color: aliceblue;
+
+
+}
+
+.jk1{
+    font-weight: 700;
+    font-size: 25px;
+}
+.jk3{
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-width: 3px;
+    border: white;
+}
+
+.jk4{
+    border-radius: 10px;
+    border-width: 33px;
+    border: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 25px;
+    color: #e5e7eb;
+}
+
+.f2{
+    margin-bottom: 80px;
 }
